@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;                     /*margin 0, padding 0 e box-sizing border-box  são padrão*/
+    box-sizing: border-box;
+    font-family: ;
+    font-family: 'Lato', sans-serif;
+}
+
+@keyframes anim1{
+   /* from{background-color: rgb(92, 0, 26); width: 400px;}
+    to{background-color: rgb(0, 255, 21); width: 100px;} */
+    0%{background-color: yellow;}
+    50%{background-color: green;}
+    100%{background-color: red;}
+}
+
+.teste{
+    width: 400px;
+    height: 400px;
+    background-color:yellow;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    /*animation-fill-mode: both; /*define em qual posição a animação irá parar*/
+    animation-iteration-count: 2;
+}
